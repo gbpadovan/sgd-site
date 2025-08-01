@@ -14,7 +14,7 @@ interface BookCardProps {
 export function BookCard({ id, title, author, description, cover, category, amazonLink = "https://www.amazon.com" }: BookCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
-      <div className="relative h-48 bg-gradient-to-br from-blue-400 to-indigo-600 overflow-hidden flex justify-center items-center">
+      <div className="relative h-48 bg-gradient-to-br from-red-400 to-rose-600 overflow-hidden flex justify-center items-center">
         {cover.includes('placeholder') ? (
           <div className="text-white text-center p-4">
             <h3 className="text-xl font-bold">{title}</h3>
@@ -23,8 +23,8 @@ export function BookCard({ id, title, author, description, cover, category, amaz
         ) : (
           <img 
             src={cover} 
-            alt={`${title} cover`} 
-            className="h-full object-contain max-w-[80%]"
+            alt={`Cover of ${title}`}
+            className="h-full w-auto max-w-[80%] object-contain"
           />
         )}
       </div>
