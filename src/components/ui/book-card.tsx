@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
 
 interface BookCardProps {
-  id: number;
   title: string;
   author: string;
   description: string;
@@ -11,7 +10,7 @@ interface BookCardProps {
   amazonLink?: string;
 }
 
-export function BookCard({ id, title, author, description, cover, category, amazonLink = "https://www.amazon.com" }: BookCardProps) {
+export function BookCard({ title, author, description, cover, category, amazonLink = "https://www.amazon.com" }: BookCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
       <div className="relative h-48 bg-gradient-to-br from-red-400 to-rose-600 overflow-hidden flex justify-center items-center">
@@ -21,10 +20,12 @@ export function BookCard({ id, title, author, description, cover, category, amaz
             <p className="text-sm mt-2">by {author}</p>
           </div>
         ) : (
-          <img 
+          <Image 
             src={cover} 
             alt={`Cover of ${title}`}
             className="h-full w-auto max-w-[80%] object-contain"
+            width={200}
+            height={300}
           />
         )}
       </div>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -106,7 +106,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-600 mb-6">"A big help in finding a path to understanding and release of the past - VERY GOOD. This book helped me work through difficult emotions and find healing."</p>
+              <p className="text-gray-600 mb-6">&quot;A big help in finding a path to understanding and release of the past - VERY GOOD. This book helped me work through difficult emotions and find healing.&quot;</p>
               <div>
                 <p className="font-bold">Jennifer L.</p>
                 <p className="text-sm text-gray-500">Verified Reader</p>
@@ -123,7 +123,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-600 mb-6">"Terrific Read! This book provides practical advice and strategies that actually work. I've seen real improvement in my relationships since applying these principles."</p>
+              <p className="text-gray-600 mb-6">&quot;Terrific Read! This book provides practical advice and strategies that actually work. I&apos;ve seen real improvement in my relationships since applying these principles.&quot;</p>
               <div>
                 <p className="font-bold">Robert M.</p>
                 <p className="text-sm text-gray-500">Verified Reader</p>
@@ -140,7 +140,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <p className="text-gray-600 mb-6">"Highly recommended! This book offers insightful guidance on personal growth and healing. The author's approach is compassionate and effective."</p>
+              <p className="text-gray-600 mb-6">&quot;Highly recommended! This book offers insightful guidance on personal growth and healing. The author&apos;s approach is compassionate and effective.&quot;</p>
               <div>
                 <p className="font-bold">Amanda K.</p>
                 <p className="text-sm text-gray-500">Verified Reader</p>
