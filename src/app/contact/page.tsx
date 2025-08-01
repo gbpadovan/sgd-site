@@ -16,18 +16,18 @@ export default function ContactPage() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-medium text-lg">Email</h3>
-                <p className="text-gray-600">contact@sgddigital.com</p>
+                <p className="text-gray-600">sgddigital@mailfence.com</p>
               </div>
               <div>
                 <h3 className="font-medium text-lg">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">(484) 962-0728</p>
               </div>
               <div>
                 <h3 className="font-medium text-lg">Address</h3>
                 <p className="text-gray-600">
-                  123 Publishing Avenue<br />
-                  Suite 456<br />
-                  San Francisco, CA 94103
+                  312 W. 2nd St #1285<br />
+                  Casper WY 82601<br />
+                  United States
                 </p>
               </div>
               <div>

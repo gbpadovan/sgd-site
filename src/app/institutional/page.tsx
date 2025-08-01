@@ -18,7 +18,7 @@ export default function InstitutionalPage() {
           
           <h2 className="text-2xl font-semibold mt-10 mb-4">Our Story</h2>
           <p>
-            Founded in 2018, SGD Digital began with a simple idea: to make high-quality self-help content accessible to everyone. What started as a small collection of digital books has grown into a comprehensive library of resources covering topics from personal development and productivity to mental health and financial success.
+            Founded in 2022, SGD Digital began with a simple idea: to make high-quality self-help content accessible to everyone. What started as a small collection of digital books has grown into a comprehensive library of resources covering topics from relationship counseling and personal development to mental health and counseling.
           </p>
           
           <h2 className="text-2xl font-semibold mt-10 mb-4">Our Values</h2>
